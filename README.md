@@ -48,3 +48,12 @@ cd- change directory <br>
         b-> git merge<-branch name-> (to merge 2 branches)
     2. way 2-> 
         a-> Create PR
+# undoing changes
+    1.Case 1: staged changes
+        git rset <-file name->
+        git reset
+    2.Case 2: commited changes (for one commit)
+        git reset HEAD-1
+    3.Case 3: commited changes (formany commits)
+        git reset<-commit hash->
+        git reset--hard<-commit hash->
