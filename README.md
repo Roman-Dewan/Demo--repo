@@ -42,3 +42,9 @@ cd- change directory <br>
     3. git checkout <-branch name->  (to navigate)
     4. git checkout -b <-new branch name-> (to create new branch)
     5. git branch -d <-branch name-> (to delete branch)
+# Merging Code
+    1. Way 1->
+        a-> git diff<-branch name-> (to compare commits, branches, files and more)
+        b-> git merge<-branch name-> (to merge 2 branches)
+    2. way 2-> 
+        a-> Create PR
