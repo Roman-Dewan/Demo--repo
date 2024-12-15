@@ -17,4 +17,6 @@ cd- change directory <br>
 add - adds new or changed files in your working diretory to the Git stagging area.<br>
     git add<-file name -><br>
 Commit- it is the record of change<br>
-    git commit-m"some message"
+    git commit-m"some message"<br>
+push- Upload local repo content to remote repo.<br>
+    git push origin main
